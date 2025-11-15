@@ -1,6 +1,8 @@
-# Create Something
+# CREATE SOMETHING Space
 
-A modern, award-worthy web application for browsing technical papers and case studies. Built with **TanStack Start**, deployed to **Cloudflare Workers**, and styled with **Tailwind CSS v4**.
+**The Experimental Layer** — Community playground for AI-native experiments. Fork, break, learn in public.
+
+Built with TanStack Start and Cloudflare Workers.
 
 ![Create Something](https://img.shields.io/badge/TanStack-Start-red) ![Cloudflare](https://img.shields.io/badge/Cloudflare-Workers-orange) ![Tailwind](https://img.shields.io/badge/Tailwind-v4.1.17-blue)
 

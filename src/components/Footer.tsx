@@ -16,10 +16,10 @@ export function Footer() {
             className="text-center"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              Get new notes when they're published
+              Join the community
             </h2>
             <p className="text-white/60 mb-8 max-w-2xl mx-auto">
-              No regular schedule, no marketing. Just practical notes on systems, architecture, and automation when I have something worth sharing.
+              Get notified of new experiments to try, community contributions, and opportunities to share your own learnings.
             </p>
 
             {/* Newsletter Form */}
@@ -54,7 +54,7 @@ export function Footer() {
                 CREATE SOMETHING
               </div>
               <p className="text-white/60 text-sm max-w-md mb-6">
-                Notes on building systems — patterns from working with automation, infrastructure, and marketplace architecture. No fluff, just what works.
+                Community playground for AI-native experiments. Fork, break, learn in public. Your findings feed back into createsomething.io research.
               </p>
               {/* Social Links */}
               <div className="flex items-center gap-4">
@@ -83,28 +83,28 @@ export function Footer() {
               </div>
             </div>
 
-            {/* Quick Links */}
+            {/* Community */}
             <div>
-              <h3 className="text-white font-semibold mb-4">Quick Links</h3>
+              <h3 className="text-white font-semibold mb-4">Community</h3>
               <ul className="space-y-3">
                 <li>
                   <Link to="/" className="text-white/60 hover:text-white text-sm transition-colors">
-                    Home
+                    Browse Experiments
                   </Link>
                 </li>
                 <li>
-                  <Link to="/experiments" className="text-white/60 hover:text-white text-sm transition-colors">
-                    All Experiments
-                  </Link>
+                  <a href="https://github.com/createsomethingtoday/createsomething-space/issues" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white text-sm transition-colors">
+                    Share Findings
+                  </a>
                 </li>
                 <li>
-                  <Link to="/methodology" className="text-white/60 hover:text-white text-sm transition-colors">
-                    Methodology
-                  </Link>
+                  <a href="https://github.com/createsomethingtoday/createsomething-space" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white text-sm transition-colors">
+                    Fork on GitHub
+                  </a>
                 </li>
                 <li>
-                  <Link to="/categories" className="text-white/60 hover:text-white text-sm transition-colors">
-                    Categories
+                  <Link to="/guidelines" className="text-white/60 hover:text-white text-sm transition-colors">
+                    Guidelines
                   </Link>
                 </li>
                 <li>
@@ -115,28 +115,28 @@ export function Footer() {
               </ul>
             </div>
 
-            {/* Categories */}
+            {/* The Ecosystem */}
             <div>
-              <h3 className="text-white font-semibold mb-4">Categories</h3>
+              <h3 className="text-white font-semibold mb-4">The Ecosystem</h3>
               <ul className="space-y-3">
                 <li>
-                  <Link to="/category/automation" className="text-white/60 hover:text-white text-sm transition-colors">
-                    Automation
-                  </Link>
+                  <a href="https://createsomething.io" className="text-white/60 hover:text-white text-sm transition-colors">
+                    .io → Read Research
+                  </a>
                 </li>
                 <li>
-                  <Link to="/category/development" className="text-white/60 hover:text-white text-sm transition-colors">
-                    Development
-                  </Link>
+                  <a href="https://createsomething.agency" className="text-white/60 hover:text-white text-sm transition-colors">
+                    .agency → Get Help
+                  </a>
                 </li>
                 <li>
-                  <Link to="/category/webflow" className="text-white/60 hover:text-white text-sm transition-colors">
-                    Webflow
-                  </Link>
+                  <a href="https://github.com/createsomethingtoday" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white text-sm transition-colors">
+                    GitHub → Contribute
+                  </a>
                 </li>
                 <li>
-                  <Link to="/contact" className="text-white/60 hover:text-white text-sm transition-colors">
-                    Contact
+                  <Link to="/methodology" className="text-white/60 hover:text-white text-sm transition-colors">
+                    How It Works
                   </Link>
                 </li>
               </ul>

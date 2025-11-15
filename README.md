@@ -139,11 +139,46 @@ Need professional help applying these patterns?
 - **Give credit** — Acknowledge sources and inspirations
 - **Learn together** — Help others learn from your mistakes
 
+## Community Open Source
+
+The Valve model applied to community experimentation.
+
+### Upstream Your Improvements
+
+Found a better way? Improved a tool? **Submit it upstream.**
+
+When you fork an experiment and improve it:
+1. **Fork the experiment** from .space
+2. **Make it better** (fix bugs, add features, try new approaches)
+3. **PR your improvements** back to the tool itself (TanStack, Cloudflare, etc.)
+4. **Share your learnings** via issue or PR to .space
+
+Your community contributions become [createsomething.io](https://createsomething.io) research papers.
+
+### Featured Community Contributions
+
+Community members who've improved the ecosystem:
+
+- *Coming soon* — Be the first to contribute upstream!
+
+### Why This Matters
+
+**Most playgrounds:** Fork → Modify → Keep private
+
+**CREATE SOMETHING Space:** Fork → Modify → Contribute upstream → Everyone benefits
+
+This is the Valve model at community scale. You're not just learning—you're improving the tools for everyone.
+
+The best community contributions get:
+- Featured on createsomething.space
+- Documented as research on createsomething.io
+- Recognition in the ecosystem
+
 ## License
 
 MIT License - See [LICENSE](./LICENSE) for details
 
-Fork freely. Break things. Learn.
+Fork freely. Break things. Learn. **Contribute upstream.**
 
 ---
 
